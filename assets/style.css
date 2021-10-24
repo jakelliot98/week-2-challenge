@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: inline-block;
-    background-color: rgba(18, 63, 187, 0.5);
+    background-color: rgba(65, 60, 60);
+    color: whitesmoke;
 }
 
 .name {
@@ -16,5 +23,33 @@
 
 .name img {
     width: 15%;
-    justify-content: right;
+    padding-top: 15px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+    background-image: url(./images/portfolio-background.png);
+    background-size: cover;
+}
+
+.projects div img{
+    width: 100%;
+}
+
+.project {
+    margin: 20px;
+    width: 300px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, .4);
+    text-align: center;
+    background-color: rgb(65, 60, 60);
+    color: whitesmoke;
+}
+
+.project:hover {
+    opacity: .5;
 }

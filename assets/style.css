@@ -1,0 +1,20 @@
+.header {
+    display: inline-block;
+    background-color: rgba(18, 63, 187, 0.5);
+}
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name h1 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+.name img {
+    width: 15%;
+    justify-content: right;
+}

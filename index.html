@@ -8,19 +8,41 @@
 
 <body>
 <header class="header">
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#About-Me">About Me</a>
+                </li>
+                <li>
+                    <a href="#Projects">My Projects</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <div class="name">
     <h1> Jake Cheatham's Portfolio</h1>
         <img src="./assets/images/Jake Picture.jpg" alt="Me!" id="photo-self" />
 </div>
 
-<div class="about-me">
+
+<div class="about-me" id="About-Me">
         <h2>A Little About Me</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta hic quas culpa aliquam perspiciatis praesentium ipsam quos illo, iusto ut nihil possimus ullam vero obcaecati sit dicta dolorem nobis illum?</p>
 </div>
 </header>
 
 <!--projects start here-->
-<section class="projects">
+<div class="flex-row">
+    <h2>
+        Projects
+    </h2>
+</div>
+<section class="projects" id="Projects">
 
    <article class="project">
     <div class="project-info">
@@ -87,7 +109,21 @@
         </div>
         </article>
 </section>
+<section class="contact-me" id="Contact">
+    <h2>Contact Me!</h2>
+    <p>For any questions or work opportunities, please reach out to me using one of the forms of contact below! I look forward to hearing from you soon!</p>
+<div class="contact-info">
+    <ul>
+        <li>
+            <a>Email: </a><a href= "mailto:jakelliot98@gmail.com">jakelliot98@gmail.com</a>
+        </li>
+        <li>
+            <a>Phone: </a><a href="tel:919-886-3506">919-886-3502</a>
+        </li>
+    </ul>
+</div>
 
+</section>
 
 </body>
 

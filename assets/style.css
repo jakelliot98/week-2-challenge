@@ -8,7 +8,6 @@
     display: inline-block;
     background-color: rgba(65, 60, 60);
     color: whitesmoke;
-    
     padding-bottom: 70px;
     border: whitesmoke;
     
@@ -25,6 +24,19 @@ header nav ul li {
 
 header nav ul li a {
     color: whitesmoke;
+}
+
+.about-me {
+    display: block;
+    text-align: center;
+}
+
+.about-me h2 {
+    margin: 15px;
+}
+
+.about-me p {
+    flex-wrap: wrap;
 }
 
 .name {
@@ -67,6 +79,26 @@ header nav ul li a {
     color: whitesmoke;
 }
 
+.project p, .project h2 {
+    color: whitesmoke;
+}
+
+.project a:link {
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project a:visited {
+    text-decoration: none;
+}
+
+.project a :active {
+    text-decoration: underline;
+}
+
 .project:hover {
     opacity: .5;
 }
@@ -80,12 +112,15 @@ header nav ul li a {
     border-color: gray;
     background-color: rgba(65, 60, 60);
     padding: 15px;
+    background-image: url(./images/portfolio-background.png);
 }
 
 .contact-me {
     background-color: rgb(65, 60, 60);
     color: whitesmoke;
     text-align: center;
+    padding: 60px 0;
+
 }
 
 
@@ -93,7 +128,8 @@ header nav ul li a {
     display: inline-block;
     margin: 30px;
     font-size: 32px;
-    padding-top: 12px;
+    padding-top: 0px;
+    margin-bottom: 50px;
     border-bottom: solid;
    
     
